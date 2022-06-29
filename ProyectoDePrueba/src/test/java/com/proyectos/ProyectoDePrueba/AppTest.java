@@ -37,12 +37,13 @@ public class AppTest
         int n=69;
         assertEquals("Esta dentro de la poblacion ADULTA MAYOR",App.categoria(n));
     }
-    /*
+    
+    //COMENTADO PARA PROBAR
     @Test
     public void edadInvalida()
     {
         int n=-1;
         assertEquals("ERROR: Ingrese una edad valida.",App.categoria(n));
     }
-	*/
+	
 }
